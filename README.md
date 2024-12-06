@@ -3,7 +3,7 @@ Smart Meeting Insights Assistant (S.M.I.A.) is an innovative application designe
 
 # Technologies Used
 * Backend: Django (Python)
-* Frontend: Next.js (React)
+* Frontend: Next.js (TypeScript)
 * Database: MySQL
 * APIs:
 OpenAI (for AI models and insights)
