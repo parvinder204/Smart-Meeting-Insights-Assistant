@@ -22,10 +22,6 @@ Integrates with Zoom, Google Meet, and Slack to fetch data and provide insights.
 A Next.js (React) project responsible for the user interface and interacting with the backend.
 Provides a dashboard, meeting insights, real-time translation, and video recording features.
 
-# Directory Structure:
-
-![alt text](image.png)
-
 # Setup Instructions
 Prerequisites
 1. Python (for the backend)
