@@ -1,0 +1,14 @@
+/node_modules/
+/.next/
+/out/
+/*.log
+.env.local
+
+venv/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.log
+.env
