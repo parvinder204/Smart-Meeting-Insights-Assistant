@@ -24,30 +24,7 @@ Provides a dashboard, meeting insights, real-time translation, and video recordi
 
 # Directory Structure:
 
-/smart-meeting-insights-assistant
-│
-├── /backend                  # Backend Django project files
-│   ├── /config               # Django project settings and configuration files
-│   ├── /api                  # Django app to handle API endpoints
-│   ├── /services             # Business logic and integrations (Zoom, Meet, Slack)
-│   ├── /utils                # Helper functions and utilities
-│   ├── /migrations           # Database migrations
-│   └── manage.py             # Django management commands
-│
-├── /frontend                 # Frontend (Next.js project files)
-│   ├── /public               # Public assets like images, icons, etc.
-│   ├── /components           # Reusable UI components
-│   ├── /pages                # Next.js pages
-│   ├── /styles               # Global and component-level styles
-│   ├── /api                  # API routes for frontend-backend communication
-│   └── next.config.js        # Next.js configuration file
-│
-├── .gitignore                # List of files and directories Git should ignore
-├── .env                      # Environment variables for both backend and frontend
-├── requirements.txt          # Python dependencies for the backend
-├── package.json              # Node.js dependencies for the frontend
-├── README.md                 # Project documentation
-└── run.py                    # Script to run both backend and frontend servers
+![alt text](image.png)
 
 # Setup Instructions
 Prerequisites
@@ -65,7 +42,7 @@ Prerequisites
 ## Step 1: Clone the Repository
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/smart-meeting-insights-assistant.git
+git clone https://github.com/parvinder204/smart-meeting-insights-assistant.git
 cd smart-meeting-insights-assistant
 
 ## Step 2: Set Up the Backend
@@ -74,11 +51,13 @@ Navigate to the backend folder:
 cd backend
 Create and activate a virtual environment:
 python -m venv venv
-source venv/bin/activate  # For Linux/macOS
-venv\Scripts\activate     # For Windows
+source venv/bin/activate (on Linux/Mac)
+venv\Scripts\activate (on Windows)
+
 
 Install the required Python dependencies:
 pip install -r requirements.txt
+
 
 Configure your .env file:
 Copy the contents from .env.example (if you have one) or create your own.
