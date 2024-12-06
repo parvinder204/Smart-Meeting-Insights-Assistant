@@ -60,7 +60,6 @@ pip install -r requirements.txt
 
 
 Configure your .env file:
-Copy the contents from .env.example (if you have one) or create your own.
 
 Run migrations to set up the database:
 python manage.py migrate
@@ -106,4 +105,4 @@ OpenAI API is used to generate insights and provide intelligent summaries from t
 Feel free to fork the repository and submit pull requests. Please ensure that your code adheres to the project’s coding style and includes appropriate tests.
 
 # Contact
-For more details or questions, contact the project maintainer at your_email@example.com.
+For more details or questions, contact the project maintainer at techpinda1214@gmail.com
